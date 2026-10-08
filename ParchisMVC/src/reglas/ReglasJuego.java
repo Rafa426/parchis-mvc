@@ -1,13 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package reglas;
 
-/**
- *
- * @author psraf
- */
 public interface ReglasJuego {
-    
+
+    boolean configurarPartida(int numeroJugadores);
+
+    boolean puedeUnirse();
+
+    boolean registrarJugador(String nombre, String color);
+
+    boolean puedeIniciar();
+
+    boolean iniciarPartida();
 }
