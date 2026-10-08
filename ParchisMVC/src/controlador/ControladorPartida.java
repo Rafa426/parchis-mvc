@@ -1,5 +1,6 @@
 package controlador;
 
+import vista.VistaRegistrarJugador;
 import java.util.Scanner;
 import modelo.ModeloJuego;
 import vista.*;
